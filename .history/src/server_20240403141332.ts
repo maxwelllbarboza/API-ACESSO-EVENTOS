@@ -1,0 +1,15 @@
+import fastify from "fastify";
+import {z} from 'zod';
+
+const app = fastify();
+
+
+app.post('events', (request, reply) => {
+
+    const createEventsSchema = z.object({
+        title: z.string().min(4, "Titulo muito pequeno"),
+        details: z.string().nullable(),
+        maximun_attendees: z.number().int("Numero só inteiro").,
+    }) 
+
+})

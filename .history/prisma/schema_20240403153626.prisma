@@ -1,0 +1,18 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model events {
+  id                String  @id @default(uuid())
+  title             String
+  details           String?
+  slug              String  @unique
+  maximum_attendess Int?
+}
+
+model attendees
