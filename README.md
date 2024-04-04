@@ -1,31 +1,32 @@
 O sistema fara um scan da credencial do participante para permitir a entrada no evento.
 
+https://api-acesso-eventos.vercel.app/docs
+
 ## Requisitos
 
 
 ### Requisitos funcionais
 
 
-- [] O organizador deve poder cadastrar um novo evento;
-- [] O organizador deve poder visualizar dados de um evento;
-- [] O organizador deve poder visualizar a lista de participantes;
-- [] O organizador deve poder se inscrever em um evento;
-- [] O organizador deve poder visualizar seu crachá de inscrição;
-- [] O organizador deve poder realizar check-in no evento;
+- O organizador deve poder cadastrar um novo evento;
+- O organizador deve poder visualizar dados de um evento;
+- O organizador deve poder visualizar a lista de participantes;
+- O organizador deve poder se inscrever em um evento;
+- O organizador deve poder visualizar seu crachá de inscrição;
+- O organizador deve poder realizar check-in no evento;
 
 ### Regras de negócios
 
-- [] O organizador só pode se inscrever em um evento uma única vez;
-- [] O organizador só pode se inscrever em eventos com vagas disponíveis;
-- [] O organizador só pode realizar check-in em um evento uma única vez;
-
+- O organizador só pode se inscrever em um evento uma única vez;
+- O organizador só pode se inscrever em eventos com vagas disponíveis;
+- O organizador só pode realizar check-in em um evento uma única vez;
 
 ### requisitos não-funcionais
 
-- [] O check-in no evento será realizado atrvés de um QRCode;
+- O check-in no evento será realizado atrvés de um QRCode;
 
 
 ## Anotaçoes
 
-Métodos HTTP: GET, POST, PUT, DELETE, PATCH, HEAD, OPTIONS, ...
+Métodos HTTP: GET, POST, PUT, DELETE, PATCH.
 
